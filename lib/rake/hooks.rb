@@ -31,4 +31,3 @@ module Rake::Hooks
 end
 
 Rake::DSL.send(:include, Rake::Hooks) if defined?(Rake::DSL)
-include Rake::Hooks unless self.class.included_modules.include?(Rake::Hooks)
